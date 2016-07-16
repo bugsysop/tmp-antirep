@@ -1,0 +1,31 @@
+title: Page
+pages: true
+files: true
+
+fields:
+
+# Static fields
+
+  title:
+    label: Titre
+    type:  text
+
+  text:
+    label: Texte
+    type:  textarea
+    buttons:
+      - h1
+      - h2
+      - h3
+      - bold
+      - italic
+      - link
+      - ulist
+      - page
+
+  # Invisibles Fields
+
+  gallerygrid:
+    type: gallerygrid
+  pagelock:
+    type: pagelock
