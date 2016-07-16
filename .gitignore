@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+Icon?
+
+/thumbs/**
+/content/**
+/site/accounts/**
+/site/cache/**
+/site/config/**
+/assets/avatars/**
