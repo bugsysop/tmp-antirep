@@ -1,0 +1,37 @@
+title: Site
+pages:
+  template:
+    - section
+    - redirect
+files: true
+fields:
+  title:
+    label: Nom du site
+    type:  text
+    icon:  globe
+
+  description:
+    label: Description
+    type:  text
+    icon:  info-circle
+
+  keywords:
+    label: Mots-clefs
+    type: tags
+
+  lang:
+    label: Langue du site
+    type:  select
+    default: fr
+    options:
+      de: Allemand
+      en: Anglais
+      ca: Espagnol
+      fr: Francais
+      it: Italien
+
+  # Invisibles Fields
+  gallerygrid:
+    type: gallerygrid
+  pagelock:
+    type: pagelock

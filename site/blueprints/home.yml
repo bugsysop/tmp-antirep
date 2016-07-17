@@ -1,0 +1,31 @@
+title: Home
+pages: true
+  template:
+    - home-banner
+    - home-columns
+    - home-text
+files: true
+  sortable: true
+  fields:
+    caption:
+      label: Légende
+      type: textarea
+      buttons: none
+    credit:
+      label: Crédit
+      type: text
+      help: Nom du photographe ou de l'illustrateur
+
+fields:
+
+  title:
+    label: Titre
+    type: text
+
+
+# Invisibles Fields
+
+  gallerygrid:
+    type: gallerygrid
+  pagelock:
+    type: pagelock
